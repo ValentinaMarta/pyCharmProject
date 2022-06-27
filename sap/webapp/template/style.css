@@ -1,0 +1,107 @@
+body{
+	background-image: url("https://cdn.pixabay.com/photo/2020/03/25/18/33/drip-4968242_960_720.jpg")
+}
+h1{
+	color: pink;
+	text-align: center;
+}
+nav{
+	text-align: center; 
+}
+nav ul{
+	color: pink;
+}
+nav li{
+	display: inline-block;
+	padding: 10px;
+	/*letter-spacing: 1rem;*/
+
+}
+/*al parar por encima el raton cambia el color*/
+nav li:hover{
+background-color: purple;
+color: pink;
+}
+section{
+	/*background-image: url('logopoke.png');*/
+	background-color: #f213;
+	max-width: 70%;
+	display: block;
+	margin: auto;
+}
+a:visited{
+	color:pink;
+}
+a{
+		text-decoration:none;
+}
+.contenedor{
+	background-image: url("https://placeimg.com/300/300/any");
+	background-color: #f214;
+	width: 300px;
+	height: 300px;
+	/*Centrar mi contenedor con..*/
+	display: block;
+	margin:auto; 
+}
+.caja1{
+	background-image: url('pokemon1.png');
+	width: 100px;
+	height: 100px;
+	position: absolute;/*con eso le decimos que ocupe solo el espacio que tiene y no toda la linea*/
+	
+}
+.caja2{
+	background-image: url('pokemon2.png');
+	width: 100px;
+	height: 100px;
+	margin-left:100px; 
+	position: absolute;
+
+}
+.caja3{
+	background-image: url('pokemon3.png');
+	width: 100px;
+	height: 100px;
+	margin-left:200px;/*Con esto ponemos la caja lo mas cerca posible de la ultima caja para luego poder subirla*/ 
+}
+.caja4{
+	background-image: url('pokemon4.png');
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	 
+}
+.caja5{
+	background-image: url('bola.png');
+	width: 100px;
+	height: 100px;
+	margin-left:100px;/*Con esto ponemos la caja lo mas cerca posible de la ultima caja para luego poder subirla*/ 
+	position: absolute;
+}
+.caja6{
+	background-image: url('pokemon5.png');
+	width: 100px;
+	height: 100px;
+	margin-left:200px;/*Con esto ponemos la caja lo mas cerca posible de la ultima caja para luego poder subirla*/ 
+}
+.caja7{
+	background-image: url('pokemon6.png');
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	 
+}
+.caja8{
+	background-image: url('pokemon7.png');
+	width: 100px;
+	height: 100px;
+	margin-left:100px;/*Con esto ponemos la caja lo mas cerca posible de la ultima caja para luego poder subirla*/ 
+	position: absolute;
+}
+.caja9{
+	background-image: url('pokemon8.png');
+	width: 100px;
+	height: 100px;
+	margin-left:200px;/*Con esto ponemos la caja lo mas cerca posible de la ultima caja para luego poder subirla*/ 
+}
